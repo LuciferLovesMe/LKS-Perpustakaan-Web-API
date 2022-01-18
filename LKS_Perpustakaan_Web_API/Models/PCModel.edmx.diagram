@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5d9e4df12c834d2284ba30c689784999" Name="Diagram1">
+        <EntityTypeShape EntityType="perpustakaanPCModel.anggota" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.buku" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.kategori" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.lokasi" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.peminjaman" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.peminjaman_buku" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.petuga" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanPCModel.user" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__anggota__id_user__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__peminjama__id_an__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__buku__id_kat__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__buku__kode_lokas__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__peminjama__kode___37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__peminjama__id_pe__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__peminjama__id_pi__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanPCModel.FK__petugas__id_user__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
